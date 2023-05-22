@@ -1,0 +1,76 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../../fonts/montserrat-v25-latin-500.woff2') format('woff2'),
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../fonts/montserrat-v25-latin-600.woff2') format('woff2'),
+         url('../../fonts/montserrat-v25-latin-600.woff') format('woff'); 
+  }
+
+
+
+
+
+.header {
+  background: #01384d;
+  padding: 15px 0;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+.logo{
+    width: 142px;
+    height: 30px;
+}
+.header__form{
+    position: relative;
+}
+.header__input {
+  padding: 12px 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  background: #FFFFFF;
+border-radius: 7px;
+width: 400px;
+}
+.header__btn{
+    position: absolute;
+    border: none;
+    background-color: inherit;
+    width: 22px;
+    height: 22px;
+  top: 25%;
+right: 22px;
+cursor: pointer;
+
+}
+.icon{
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}
+.userName{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+}
